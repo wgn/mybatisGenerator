@@ -1,0 +1,10 @@
+mybatis-generator-core-1.3.2-bundle.zip
+是mybatis逆向工程的下载文件，包括文档和jar包。
+mybatisGenerator.xml是说明文档中的配置文件。里面很多东西需要改，但还没有动过。
+
+工程目录下的generatorConfig-base.xml等三个文件是参考可以使用的。
+运行该工程执行src下的GeneratorSqlmap.java即可
+
+myConfig.xml是我写的测试的，可以用。（涉及到数据库连接等信息，需要改好在用）
+
+如果向看日志需要加载log4j的jar包。否则只需要数据库驱动包和逆向工程的jar包即可。
