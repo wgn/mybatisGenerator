@@ -18,19 +18,19 @@
 			<property name="forceBigDecimals" value="false" />
 		</javaTypeResolver>
 
-		<javaModelGenerator targetPackage="com.zhuani21.review.bean"
+		<javaModelGenerator targetPackage="com.zhuani21.review.auto.bean"
 			targetProject=".\src">
 			<property name="enableSubPackages" value="false" />
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
 
-		<sqlMapGenerator targetPackage="com.zhuani21.review.mapper"
+		<sqlMapGenerator targetPackage="com.zhuani21.review.auto.mapper"
 			targetProject=".\src">
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.zhuani21.review.mapper" targetProject=".\src">
+			targetPackage="com.zhuani21.review.auto.mapper" targetProject=".\src">
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 
